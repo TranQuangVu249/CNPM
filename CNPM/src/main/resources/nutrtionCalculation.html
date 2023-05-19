@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Phần mềm theo dõi dinh dưỡng</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Phần mềm theo dõi dinh dưỡng</h1>
+    <nav>
+        <ul>
+            <li><a href="#">Trang chủ</a></li>
+            <li><a href="#">Thống kê</a></li>
+            <li><a href="#">Cài đặt</a></li>
+            <li><a href="#">Đăng xuất</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Điền thông tin của bạn ngày hôm nay</h2>
+        <table>
+            <tr>
+                <td>Cân nặng</td>
+                <td>
+                    <input type="text" name="txtCannang" placeholder="kg">
+                </td>
+            </tr>
+            <tr>
+                <td>Chiều cao</td>
+                <td>
+                    <input type="text" name="txtChieucao" placeholder="cm">
+                </td>
+            </tr>
+            <tr>
+                <td>Tuổi</td>
+                <td>
+                    <input type="text" name="txtTuoi">
+                </td>
+            </tr>
+            <tr>
+                <td>Giới tính</td>
+                <td>
+                    <select id="gender" name="gender">
+                        <option value="male">Nam</option>
+                        <option value="female">Nữ</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Nhu cầu hoạt động trong ngày</td>
+                <td>
+                    <input type="text" name="txtNhucau">
+                </td>
+            </tr>
+
+        </table>
+        <button type="submit">Tính toán</button>
+
+
+    </section>
+</main>
+<footer>
+</footer>
+</body>
+</html>
