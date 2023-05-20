@@ -1,6 +1,7 @@
 package org.example.Controller;
 
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -8,7 +9,9 @@ import javax.servlet.http.HttpServletResponse;
 import org.example.service.nutritionCalculationService;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 
+@WebServlet(name = "/cacul", urlPatterns = "/cacul")
 public class nutritionController {
         private nutritionCalculationService nutritionCalculationService
 
@@ -30,6 +33,8 @@ public class nutritionController {
 
             // Hiển thị kết quả cho người dùng
             response.getWriter().println("Chi số BMI của bạn là: " + chiSoBMI);
+
+
         }
     }
 
