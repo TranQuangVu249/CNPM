@@ -1,0 +1,131 @@
+<%@ page import="main.main.User" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<!DOCTYPE html>
+
+<meta charset="utf-8">
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);}
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      p {
+        text-align: justify;
+      }
+
+      .cta-button {
+        display: block;
+        width: 200px;
+        margin: 20px auto;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 4px;
+      }
+
+      .cta-button:hover {
+        background-color: #45a049;
+      }
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      form {
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 10px;
+      }
+
+      input[type="text"],
+      input[type="password"],
+      input[type="number"],
+      input[type="date"] {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+      }
+
+      input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+      }
+
+      input[type="submit"]:hover {
+        background-color: #45a049;
+      }
+    </style>
+    <title>Phần mềm theo dõi dinh dưỡng</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Phần mềm theo dõi dinh dưỡng</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Thống kê</a></li>
+          <li><a href="#">Quản lý thông tin</a></li>
+          <li><a href="#">Đăng xuất</a></li>
+        </ul>
+      </nav>
+    </header>
+    <%
+      String a = (String) session.getAttribute("login");
+      User user = (User) session.getAttribute("auth");
+
+    %>
+    <div class="container">
+      <h1>Quản lý thông tin người dùng</h1>
+      <form action="/web_war/UpdateIF">
+        <label for="username">Tên người dùng:</label>
+        <input type="text" id="username" name="username" value="<%=user.getUserName()%>" required>
+
+        <label for="height">Chiều cao (cm):</label>
+        <input type="number" id="height" name="height" value="<%=user.getHeight()%>" required>
+
+        <label for="weight">Cân nặng (kg):</label>
+        <input type="number" id="weight" name="weight"value="<%=user.getWeight()%>" required>
+
+        <label for="age">Tuổi:</label>
+        <input type="number" id="age" name="age" value="<%=user.getAge()%>" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" value= "<%=user.getEmail()%>" required>
+
+        <input type="submit" value="Cập nhật">
+      </form>
+    </div>
+    <footer>
+    </footer>
+  </body>
+</html>
