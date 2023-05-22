@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<%@ page import="main.main.User" %>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<meta charset="UTF-8">
+<head>
+    <title>Thông báo thành công</title>
+    <style>
+        .success-table {
+            width: 300px;
+            margin: 100px auto;
+            border-collapse: collapse;
+            background-color: #dff0d8;
+            border: 1px solid #3c763d;
+            color: #3c763d;
+        }
+
+        .success-table th,
+        .success-table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #3c763d;
+        }
+
+        .success-message {
+            font-weight: bold;
+            font-size: 18px;
+        }
+    </style>
+</head>
+<body>
+<table class="success-table">
+    <tr>
+        <th colspan="2">Thông báo thành công</th>
+    </tr>
+    <tr>
+        <td colspan="2" class="success-message">Cập nhật thành công!</td>
+    </tr>
+    <tr>
+        <td><a href="/web_war/Thongtinuser.jsp">Quay lại</a></td>
+    </tr>
+</table>
+</body>
+</html>

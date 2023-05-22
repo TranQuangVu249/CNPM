@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<html>
+  <head>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f2f2f2;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 800px;
+        margin: 50px auto;
+        background-color: #fff;
+        border: 1px solid #ccc;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      h1 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .user-info {
+        margin-bottom: 20px;
+      }
+
+      .user-info label {
+        font-weight: bold;
+      }
+
+      .avatar {
+        display: flex;
+        margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
+      }
+
+      .avatar img {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+      }
+    </style>
+    <title>Phần mềm theo dõi dinh dưỡng</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Phần mềm theo dõi dinh dưỡng</h1>
+      <nav>
+        <ul>
+          <li><a href="#">Trang chủ</a></li>
+          <li><a href="#">Thống kê</a></li>
+          <li><a href="">Quản lý thông tin</a></li>
+          <li><a href="#">Đăng xuất</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <h1>Thông tin người dùng</h1>
+      <div class="avatar">
+        <img src="avatar.jpg" alt="Avatar">
+        <div style="margin-left: 60px;margin-top: 20px;
+    text-align: left;">
+        <div class="user-info">
+          <label for="name">Tên người dùng:</label>
+          <span id="name">John Doe</span>
+        </div>
+
+        <div class="user-info">
+          <label for="height">Chiều cao:</label>
+          <span id="height">170 cm</span>
+        </div>
+
+        <div class="user-info">
+          <label for="weight">Cân nặng:</label>
+          <span id="weight">65 kg</span>
+        </div>
+
+        <div class="user-info">
+          <label for="age">Tuổi:</label>
+          <span id="age">25</span>
+        </div>
+
+        <div class="user-info">
+          <label for="email">Email:</label>
+          <span id="email">johndoe@example.com</span>
+        </div>
+
+        <div class="user-info">
+          <label for="gender">Giới tính:</label>
+          <span id="gender">Nam</span>
+        </div>
+
+        <div class="user-info">
+          <label for="register-date">Ngày đăng kí:</label>
+          <span id="register-date">01/01/2022</span>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    <footer>
+    </footer>
+  </body>
+</html>

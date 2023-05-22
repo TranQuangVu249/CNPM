@@ -1,0 +1,336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="web:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8e04245c-329d-4940-ba36-8b5148ac3031" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/UpdateIF.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/nutritionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/db/ConnectMysqlExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/db/DAOnutrtion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/db/DBProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/db/DBService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/DailyInformation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/EXERCISE.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/ExerciseEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/Food.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/FoodEntry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/main/nutrition.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/service/EXERCISEService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/service/FoodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/service/nutritionCalculationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/java/main/service/userService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/DangNhap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/DangNhap.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/Thongtinuser.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/Thongtinuser.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/UpdateIFsucces.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/UpdateIFsucces.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/nutrtionCalculation.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/quanlithongtin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/quanlithongtin.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/styleNC.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/CNP.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/Controller/nutritionController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/db/ConnectMysqlExample.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/db/DAOnutrtion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/db/DBProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/db/DBService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/DailyInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/EXERCISE.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/ExerciseEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/Food.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/FoodEntry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/main/nutrition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/service/EXERCISEService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/service/FoodService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/service/nutritionCalculationService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/java/org/example/service/userService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/resources/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/resources/nutrtionCalculation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/resources/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/src/main/resources/styleNC.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/nutrtionCalculation.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/Controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/Controller/nutritionController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/db/ConnectMysqlExample.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/db/DAOnutrtion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/db/DBProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/db/DBService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/DailyInformation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/EXERCISE.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/ExerciseEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/Food.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/FoodEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/main/nutrition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/service/EXERCISEService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/service/FoodService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/service/nutritionCalculationService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/org/example/service/userService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CNPM/target/classes/styleNC.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="useMavenConfig" value="true" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2IadZx8x6b4JU8JsuWaOiRb2mQf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/vu/Documents/GitHub/CNPM2/BaiNopCuoiKi/web/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vu\Documents\GitHub\CNPM2\BaiNopCuoiKi\web\src\main\webapp" />
+      <recent name="C:\Users\vu\Documents\GitHub\CNPM2\BaiNopCuoiKi\web\src\main\webapp\WEB-INF" />
+      <recent name="C:\Users\vu\Documents\GitHub\CNPM2\BaiNopCuoiKi\web\src\main\java\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\vu\Documents\GitHub\CNPM2\BaiNopCuoiKi\web\src\main\webapp" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="main.Controller" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.68">
+    <configuration name="userService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.service.userService" />
+      <module name="web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.68" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.68" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="web:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/web_war" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="33c48a7a-9273-406f-a536-8153ed5ee649" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50719" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="web:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.userService" />
+      <item itemvalue="Tomcat Server.Tomcat 9.0.68" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.userService" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8e04245c-329d-4940-ba36-8b5148ac3031" name="Changes" comment="" />
+      <created>1670423686761</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1670423686761</updated>
+      <workItem from="1670423688251" duration="267000" />
+      <workItem from="1670726474232" duration="4602000" />
+      <workItem from="1673165002110" duration="139000" />
+      <workItem from="1684683998799" duration="14653000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/web/src/main/java/main/service/userService.java</url>
+          <line>104</line>
+          <properties class="main.service.userService" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/web/src/main/java/main/Controller/UpdateIF.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
