@@ -10,6 +10,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e04245c-329d-4940-ba36-8b5148ac3031" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/web/src/main/webapp/ThongTinDinhDuong.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/main/Controller/nutritionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/nutritionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/main/main/nutrition.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/main/main/nutrition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/java/main/service/nutritionCalculationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/java/main/service/nutritionCalculationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/Home.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/Home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/nutrtionCalculation.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/nutrtionCalculation.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/src/main/webapp/styleNC.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/src/main/webapp/styleNC.css" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/Login.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/UpdateIF.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/web/src/main/java/main/Controller/UserController.java" afterDir="false" />
@@ -113,6 +121,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Jsp File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -142,24 +152,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/vu/Documents/GitHub/CNPM2/BaiNopCuoiKi/web/src/main/webapp",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Cnp/BaiNopCuoiKi&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.importing&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\vu\Documents\GitHub\CNPM2\BaiNopCuoiKi\web\src\main\webapp" />
@@ -192,12 +202,12 @@
       <deployment>
         <artifact name="web:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/web_war" />
+            <option name="CONTEXT_PATH" value="" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="33c48a7a-9273-406f-a536-8153ed5ee649" />
+        <option name="BASE_DIRECTORY_NAME" value="908950a5-5966-4d33-85e3-6e8da6cf75d7" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -205,7 +215,7 @@
       <predefined_log_file id="Tomcat Host Manager" />
       <predefined_log_file id="Tomcat Localhost Access" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="50719" />
+        <option name="DEBUG_PORT" value="54513" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -296,6 +306,9 @@
       <workItem from="1670726474232" duration="4602000" />
       <workItem from="1673165002110" duration="139000" />
       <workItem from="1684683998799" duration="14653000" />
+      <workItem from="1684778271246" duration="425000" />
+      <workItem from="1684809602128" duration="22159000" />
+      <workItem from="1684840540951" duration="4588000" />
     </task>
     <servers />
   </component>
