@@ -34,19 +34,13 @@ main {
 }
 
 section {
-<<<<<<< HEAD
+
     display: flex;
     flex-direction: column;
     border-radius: 4px;
     padding: 1rem;
     width: auto; /* chiều rộng của section */
     height: auto; /* chiều cao của section */
-=======
-    border-radius: 4px;
-    padding: 1rem;
-    width: 80%; /* chiều rộng của section */
-    height: 300px; /* chiều cao của section */
->>>>>>> origin/main
     margin: auto; /* giữa trang */
     background-color: #f5f5f5;
     border: 1px solid #ddd;
@@ -57,6 +51,7 @@ section {
     color: #999; /* màu sắc cho hint */
     font-style: italic; /* kiểu chữ cho hint */
 }
+
 h1, h2, p {
     margin: 0;
 }
@@ -74,12 +69,12 @@ button {
 form {
     max-width: 100%;
 }
+
 td {
     padding: 8px;
 }
 
-input[type="text"],
-select {
+input[type="text"]{
     width: 100%;
     box-sizing: border-box;
     border-radius: 4px;
