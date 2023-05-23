@@ -102,11 +102,11 @@ public class nutritionController extends HttpServlet {
 
         //Tính lượng chất béo
         double lipid;
-        lipid = nutritionCalculationService.tinhAmidon(TE);
+        lipid = nutritionCalculationService.tinhLipid(TE);
 
         //Tính lượng chất đạm
         double protein;
-        protein = nutritionCalculationService.tinhAmidon(TE);
+        protein = nutritionCalculationService.tinhProtein(TE);
 
         // Hiển thị kết quả cho người dùng
 //            response.getWriter().println("Chi số BMI của bạn là: " + chiSoBMI);
